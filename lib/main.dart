@@ -105,7 +105,7 @@ class _PatientMonitorScreenState extends State<PatientMonitorScreen>
   String _patientAgeGender = '38 / Female';
   String _bedWardId = 'Bed 01 (ICU)';
   String? _lastNotifiedStatus;
-  String _nursePhone = '+94 77 123 4567';
+  String _nursePhone = '0702276509';
   String _nurseName = 'Staff Nurse Kumara';
 
   // Subscriptions & Timers
