@@ -69,7 +69,7 @@ bool isDanger = false;
 float readDHT11Temperature() {
   float t = dht.readTemperature();
   if (isnan(t)) {
-    return 0.0; // Reading Error ඇති වුවහොත් 0.0 ලබා දෙයි
+    return 0.0; 
   }
   return t;
 }
